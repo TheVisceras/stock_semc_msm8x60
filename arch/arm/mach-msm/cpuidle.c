@@ -42,17 +42,20 @@ static struct msm_cpuidle_state msm_cstates[] = {
 	{1, 1, "C1", "RETENTION",
 		MSM_PM_SLEEP_MODE_RETENTION},
 
+
 	{2, 0, "C0", "WFI",
 		MSM_PM_SLEEP_MODE_WAIT_FOR_INTERRUPT},
 
 	{2, 1, "C1", "RETENTION",
 		MSM_PM_SLEEP_MODE_RETENTION},
 
+
 	{3, 0, "C0", "WFI",
 		MSM_PM_SLEEP_MODE_WAIT_FOR_INTERRUPT},
 
 	{3, 1, "C1", "RETENTION",
 		MSM_PM_SLEEP_MODE_RETENTION},
+
 };
 
 static int msm_cpuidle_enter(
